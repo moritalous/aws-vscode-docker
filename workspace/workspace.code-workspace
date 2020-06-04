@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "/home/ec2-user"
+		},
+		{
+			"path": "/workspace"
+		},
+		{
+			"path": "/var/log"
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,18 @@
+// See https://aka.ms/vscode-remote/devcontainer.json for format details.
+{
+  "name": "amazonlinux2",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "amazonlinux2",
+  "workspaceFolder": "/workspace",
+  "settings": {
+    "editor.tabSize": 2,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "amazonwebservices.aws-toolkit-vscode"
+  ],
+  "remoteUser": "ec2-user",
+  "shutdownAction": "stopContainer"
+}

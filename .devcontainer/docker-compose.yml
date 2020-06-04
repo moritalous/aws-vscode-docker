@@ -1,0 +1,14 @@
+version: '3'
+services: 
+  amazonlinux2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes: 
+      - ../workspace:/workspace
+      - ../mount/.aws:/home/ec2-user/.aws
+    environment: 
+      TZ: Asia/Tokyo
+    tty: true
+    restart: always
+  
